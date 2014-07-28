@@ -82,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8826DB2B1986D29700369E9D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				884078CA1986C19900C3ECC5 /* ROFMasterViewController.h */,
+				884078CB1986C19900C3ECC5 /* ROFMasterViewController.m */,
+				884078CD1986C19900C3ECC5 /* ROFDetailViewController.h */,
+				884078CE1986C19900C3ECC5 /* ROFDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8826DB2C1986D31600369E9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				884078C71986C19900C3ECC5 /* Main.storyboard */,
+				884078D01986C19900C3ECC5 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		884078A91986C19800C3ECC5 = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +137,8 @@
 			children = (
 				884078C41986C19900C3ECC5 /* ROFAppDelegate.h */,
 				884078C51986C19900C3ECC5 /* ROFAppDelegate.m */,
-				884078C71986C19900C3ECC5 /* Main.storyboard */,
-				884078CA1986C19900C3ECC5 /* ROFMasterViewController.h */,
-				884078CB1986C19900C3ECC5 /* ROFMasterViewController.m */,
-				884078CD1986C19900C3ECC5 /* ROFDetailViewController.h */,
-				884078CE1986C19900C3ECC5 /* ROFDetailViewController.m */,
-				884078D01986C19900C3ECC5 /* Images.xcassets */,
+				8826DB2C1986D31600369E9D /* Resources */,
+				8826DB2B1986D29700369E9D /* View Controllers */,
 				884078BC1986C19900C3ECC5 /* Supporting Files */,
 			);
 			path = controllingSource;
@@ -463,6 +479,7 @@
 				884078E91986C19900C3ECC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884078EA1986C19900C3ECC5 /* Build configuration list for PBXNativeTarget "controllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				884078EC1986C19900C3ECC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
